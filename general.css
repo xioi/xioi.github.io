@@ -5,6 +5,10 @@
         color: rgb(238, 238, 238);
     }
 
+    nav h1 {
+        border-bottom-color: white;
+    }
+
     img {
         filter: brightness( 80%);
     }
@@ -22,6 +26,11 @@ body {
     padding: 10px;
 }
 
+nav h1 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
 .term {
     border: solid;
     border-width: 1px;
@@ -37,8 +46,5 @@ body {
 
 time.posttime::before {
     content: "发布于";
-}
-
-time.posttime::after {
-    content: "。";
+    margin-right: 0.3em;
 }
